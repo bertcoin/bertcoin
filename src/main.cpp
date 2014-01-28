@@ -2002,7 +2002,7 @@ bool LoadBlockIndex(bool fAllowNew)
     
         
         // Genesis block
-        const char* pszTimestamp = "THe future official currency of...";
+        const char* pszTimestamp = "The future official currency of...";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
